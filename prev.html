@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babun Gainz - Meme Coin</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #000000, #ffcc00, #ff3300);
+            color: #ffffff;
+            text-align: center;
+        }
+        .header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #1A237E;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .button {
+            background-color: #ff9900;
+            color: white;
+            padding: 12px 30px;
+            font-size: 18px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s;
+        }
+        .button:hover {
+            transform: scale(1.1);
+            background-color: #ff6600;
+        }
+        .animated-text {
+            font-size: 20px;
+            font-weight: 500;
+            color: #ffffff;
+            animation: flicker 1.5s infinite alternate;
+        }
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        .memes-section, .plans-section {
+            margin-top: 40px;
+        }
+        .memes {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .meme-card {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(255, 204, 0, 0.5);
+            text-align: center;
+            width: 120px;
+            transition: transform 0.3s ease;
+        }
+        .meme-card:hover {
+            transform: translateY(-5px);
+        }
+        .meme-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .plans {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .plan-card {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 204, 0, 0.5);
+            width: 200px;
+            transition: transform 0.3s ease;
+        }
+        .plan-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Babun Gainz</h2>
+    </div>
+    <div class="container">
+        <h1>Dive into Babun Gainz & Enjoy the Ride!</h1>
+        <p class="animated-text">Join the meme revolution!</p>
+        <button class="button">Start now</button>
+
+        <div class="memes-section">
+            <h3>Discover Trending Babun Memes</h3>
+            <div class="memes">
+                <div class="meme-card"><img src="1.jpg" alt="Meme 1"><p>Moon Babun</p></div>
+                <div class="meme-card"><img src="2.jpg" alt="Meme 2"><p>Crypto Comedy</p></div>
+                <div class="meme-card"><img src="3.jpg" alt="Meme 3"><p>Market Laugh</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
